@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.sqlite3
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Pytest
+htmlcov/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+test.db
+
+# Alembic
+alembic.ini
+
+# Byte-compiled / C extensions
+*.so
+
+# MacOS / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# Images
+app/static/images
