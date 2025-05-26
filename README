@@ -1,0 +1,107 @@
+# 🛍️ Lu Estilo API
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-0.95+-green?logo=fastapi" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-14+-blue?logo=postgresql" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Docker-3.9+-blue?logo=docker" alt="Docker">
+</p>
+
+API RESTful para gestão comercial com autenticação JWT e integração WhatsApp via Twilio.
+
+## 📋 Sumário
+
+- [Funcionalidades](#-funcionalidades)
+- [Como Executar](#-como-executar)
+- [Endpoints](#-endpoints)
+- [WhatsApp](#-whatsapp-sandbox)
+- [Variáveis de Ambiente](#-variáveis-de-ambiente)
+- [Tecnologias](#-tecnologias)
+
+## ✨ Funcionalidades
+
+- **Autenticação segura** com tokens JWT
+- **CRUD completo** de clientes, produtos e pedidos
+- **Controle de acesso** por níveis (admin/usuário)
+- **Notificações** via WhatsApp
+- **Documentação** automática com Swagger
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Docker e Docker Compose
+- Python 3.11+ (opcional para desenvolvimento)
+
+### Passo a Passo
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/lu-estilo-api.git
+cd lu-estilo-api
+
+# 2. Configure o ambiente
+cp .env.example .env
+
+# 3. Inicie os containers
+docker-compose up --build
+
+# 4. Acesse a API
+http://localhost:8000/docs
+🔍 Endpoints Principais
+Autenticação
+Método	Endpoint	Descrição
+POST	/auth/register	Registrar usuário
+POST	/auth/login	Login
+Clientes
+Método	Endpoint	Descrição
+GET	/clients	Listar clientes
+POST	/clients	Criar cliente
+Produtos
+Método	Endpoint	Descrição
+GET	/products	Listar produtos
+POST	/products	Criar produto
+📱 WhatsApp Sandbox
+Acesse no seu WhatsApp:
+
+https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+circle-continent
+Envie "join circle-continent"
+
+⚙️ Variáveis de Ambiente
+Arquivo .env:
+
+ini
+DATABASE_URL=postgresql://user:pass@db:5432/lu_estilo
+JWT_SECRET=seu_segredo_aqui
+TWILIO_ACCOUNT_SID=seu_sid
+TWILIO_AUTH_TOKEN=seu_token
+🛠️ Tecnologias
+Backend: FastAPI, Python 3.11
+
+Banco de Dados: PostgreSQL
+
+ORM: SQLAlchemy
+
+Autenticação: JWT
+
+Containerização: Docker
+
+Documentação: Swagger UI
+
+📄 Licença
+MIT License - © 2025 Lu Estilo
+
+
+### Recursos Incluídos:
+
+1. **Cabeçalho Visual** com badges das tecnologias
+2. **Sumário navegável** com links internos
+3. **Seção de execução** com comandos prontos para copiar
+4. **Tabelas organizadas** dos principais endpoints
+5. **Configuração do WhatsApp** passo a passo
+6. **Exemplo de .env** pronto para uso
+7. **Lista de tecnologias** utilizadas
+
+Dica: Para adicionar um logo, inclua uma linha como:
+```markdown
+<p align="center">
+  <img src="caminho/para/logo.png" width="200">
+</p>
