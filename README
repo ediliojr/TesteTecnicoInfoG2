@@ -1,4 +1,4 @@
-# 🛍️ Lu Estilo API
+<h1> 🛍️ Lu Estilo API </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11+-blue?logo=python" alt="Python">
@@ -9,7 +9,7 @@
 
 API RESTful para gestão comercial com autenticação JWT e integração WhatsApp via Twilio.
 
-## 📋 Sumário
+<h1> 📋 Sumário </h1>
 
 - [Funcionalidades](#-funcionalidades)
 - [Como Executar](#-como-executar)
@@ -18,7 +18,7 @@ API RESTful para gestão comercial com autenticação JWT e integração WhatsAp
 - [Variáveis de Ambiente](#-variáveis-de-ambiente)
 - [Tecnologias](#-tecnologias)
 
-## ✨ Funcionalidades
+<h1> ✨ Funcionalidades </h1>
 
 - **Autenticação segura** com tokens JWT
 - **CRUD completo** de clientes, produtos e pedidos
@@ -26,13 +26,13 @@ API RESTful para gestão comercial com autenticação JWT e integração WhatsAp
 - **Notificações** via WhatsApp
 - **Documentação** automática com Swagger
 
-## 🚀 Como Executar
+<h1> 🚀 Como Executar </h1>
 
-### Pré-requisitos
+<h2> Pré-requisitos </h2>
 - Docker e Docker Compose
 - Python 3.11+ (opcional para desenvolvimento)
 
-### Passo a Passo
+<h2> Passo a Passo </h2>
 ```bash
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/lu-estilo-api.git
@@ -46,7 +46,7 @@ docker-compose up --build
 
 # 4. Acesse a API
 http://localhost:8000/docs
-🔍 Endpoints Principais
+<h1>🔍 Endpoints Principais </h1>
 Autenticação
 Método	Endpoint	Descrição
 POST	/auth/register	Registrar usuário
@@ -59,13 +59,13 @@ Produtos
 Método	Endpoint	Descrição
 GET	/products	Listar produtos
 POST	/products	Criar produto
-📱 WhatsApp Sandbox
+<h1>📱 WhatsApp Sandbox </h1>
 Acesse no seu WhatsApp:
 
 https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+circle-continent
 Envie "join circle-continent"
 
-⚙️ Variáveis de Ambiente
+<h1>⚙️ Variáveis de Ambiente </h1>
 Arquivo .env:
 
 ini
@@ -73,7 +73,7 @@ DATABASE_URL=postgresql://user:pass@db:5432/lu_estilo
 JWT_SECRET=seu_segredo_aqui
 TWILIO_ACCOUNT_SID=seu_sid
 TWILIO_AUTH_TOKEN=seu_token
-🛠️ Tecnologias
+<h1>🛠️ Tecnologias </h1>
 Backend: FastAPI, Python 3.11
 
 Banco de Dados: PostgreSQL
@@ -86,7 +86,7 @@ Containerização: Docker
 
 Documentação: Swagger UI
 
-📄 Licença
+<h1>📄 Licença </h1>
 MIT License - © 2025 Lu Estilo
 
 
@@ -100,8 +100,3 @@ MIT License - © 2025 Lu Estilo
 6. **Exemplo de .env** pronto para uso
 7. **Lista de tecnologias** utilizadas
 
-Dica: Para adicionar um logo, inclua uma linha como:
-```markdown
-<p align="center">
-  <img src="caminho/para/logo.png" width="200">
-</p>
