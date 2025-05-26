@@ -160,7 +160,3 @@ Após iniciar a aplicação, acesse:
 - **Twilio** - Integração WhatsApp
 - **Docker** - Containerização
 - **Docker Compose** - Orquestração de containers
-
-## 📞 Suporte
-
-Se precisar de ajuda, é só chamar!
