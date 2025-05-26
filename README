@@ -1,11 +1,4 @@
-<h1> 🛍️ Lu Estilo API </h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11+-blue?logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-0.95+-green?logo=fastapi" alt="FastAPI">
-  <img src="https://img.shields.io/badge/PostgreSQL-14+-blue?logo=postgresql" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Docker-3.9+-blue?logo=docker" alt="Docker">
-</p>
+<H1> 🛍️ Lu Estilo API </H1>
 
 API RESTful para gestão comercial com autenticação JWT e integração WhatsApp via Twilio.
 
